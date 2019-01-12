@@ -18,7 +18,7 @@ apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
 group = 'me.alklid'
-version = '1.4-SNAPSHOT'
+version = '1.5-SNAPSHOT'
 sourceCompatibility = 1.8
 mainClassName = 'me.alklid.Holoman'
 
@@ -33,6 +33,7 @@ repositories {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
     implementation 'org.springframework.boot:spring-boot-autoconfigure-processor'
+    implementation 'org.springframework.boot:spring-boot-configuration-processor'
 }
 
 uploadArchives {
